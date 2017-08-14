@@ -1,0 +1,44 @@
+
+.contentTop{
+    width: 23rem; 
+    height: 9.2rem;
+    background: url('../img/bj.png');
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.contentBottom{
+    width: 31rem; 
+    height: 11rem;
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.left{
+    width: 7.8rem;
+    height: 10rem;
+    background: url('../img/hdgz.png');
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.middle{
+    width: 9rem;
+    height: 10rem;
+    background: url('../img/hmlr.png');
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 1.52rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.right{
+    width: 7.8rem;
+    height: 10rem;
+    background: url('../img/syjp.png');
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}

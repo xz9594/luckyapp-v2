@@ -1,0 +1,180 @@
+.cmLeft{
+    width: 6.4rem;
+    height: 4.4rem;
+    float: left;
+    margin-top: 4.5rem;
+    margin-left: 2.4rem;
+}
+
+.marquee{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: -0.56rem;
+    overflow: hidden;
+}
+
+.marqueeBox1{animation: moveup 1s linear infinite;}
+.marqueeBox2{animation: moveup 2s linear infinite;}
+.marqueeBox3{animation: moveup 3s linear infinite;}
+.marqueeBox4{animation: moveup 4s linear infinite;}
+.marqueeBox5{animation: moveup 5s linear infinite;}
+.marqueeBox6{animation: moveup 6s linear infinite;}
+.marqueeBox7{animation: moveup 7s linear infinite;}
+.marqueeBox8{animation: moveup 8s linear infinite;}
+.marqueeBox9{animation: moveup 9s linear infinite;}
+.marqueeBox10{animation: moveup 10s linear infinite;}
+
+
+.marquee li{
+    list-style: none;
+    display: block;
+    text-align: center;
+    font-size: 0.54rem;
+    color: #561DAD;
+}
+
+.cmRight{
+    width: 7rem;
+    height: 5rem;
+    float: left;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.sel{
+    width: 100%;
+    height: 1rem;
+    position: relative;
+    top:-1rem;
+}
+
+.sel select{
+    width: 4rem;
+    height: 100%;
+    line-height: 100%;
+    padding: 0 0.6rem;
+    margin-left: 1.8rem;
+    position: absolute;
+    color: #fff;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    border: none;
+    background: url('../img/select.png');
+    background-size: 100% 100%;
+    outline: none;
+    
+}
+
+.sel option{
+    background: #F33757;
+    border: none;
+    -webkit-outline: none;
+    -moz-outline: none;
+}
+
+@keyframes moveup {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		transform: translateY(-100%);
+	}
+}
+
+@keyframes move {
+	0% {
+		transform: translateY(100%);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.box {animation: moveup 10s linear infinite;}
+.box11 {animation: moveup 2s linear infinite;}
+.box12 {animation: moveup 4s linear infinite;}
+.box13 {animation: moveup 6s linear infinite;}
+.box14 {animation: moveup 8s linear infinite;}
+.box15 {animation: moveup 10s linear infinite;}
+.box16 {animation: moveup 12s linear infinite;}
+.box17 {animation: moveup 14s linear infinite;}
+.box18 {animation: moveup 16s linear infinite;}
+.box19 {animation: moveup 18s linear infinite;}
+.box110 {animation: moveup 20s linear infinite;}
+
+.box1 {
+    animation: moveup 0.5s linear infinite;
+}
+
+.box2 {
+	animation: moveup 0s linear infinite;
+}
+
+.show {
+	margin-top: 0.33rem;
+	height: 4.33rem;
+    width: 2.83rem;
+    text-align: center;
+	font-size: 0.47rem;
+	font-family: '微软雅黑';
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.show li{
+    list-style: none;
+    color: #561DAD;
+    font-size: 0.54rem;
+}
+
+.hide {
+	margin-top: 0.33rem;
+	height: 4.33rem;
+    width: 2.33rem;
+    text-align: center;
+	font-size: 0.47rem;
+	font-family: '微软雅黑';
+    margin: 0 auto;
+    display: none;
+}
+
+.lucyuser{
+     width: 3.8rem;
+     display: inline-block;
+     font-size: 0.6rem;
+     color: #F00;
+     margin-left: -0.64rem;
+     margin-top: 1.20rem;
+     text-align: center;
+     font-weight: bold;
+     animation: move 0.2s linear ;
+}
+
+.btn{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+    text-align: center;
+    top: -8rem;
+    left: 9.8rem;
+    border-radius: 1rem;
+}
+
+.btn button{
+    width: 2.84rem;
+    height: 2.8rem;
+    position: relative;
+    top: -0.3rem;
+    left: -0.4rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.7rem;
+    cursor: pointer;
+    color: #fff;
+    background: url('../img/tj.png');
+    background-size: 100% 100%;
+    border:  none;
+    border-radius: 1rem;
+    outline: none;
+}
